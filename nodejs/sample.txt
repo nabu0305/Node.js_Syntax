@@ -1,0 +1,7 @@
+W
+Writing objects: 100% (5/5), 1.33 KiB | 1.33 MiB/s, done.
+Total 5 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/nabu0305/Node.js_Syntax.git/
+   4d1c820..70ac52a  master -> master
+root@goorm:/workspace/Node_Syntax1(master)#
