@@ -17,3 +17,39 @@ fs.readFile('sample.txt','utf-8',(err, data)=>{
     console.log(data);  
 });
 ```
+
+## Synchronous and Asynchronous in node.js
+```JavaScript
+var fs = require('fs');
+
+/*
+console.log('A');
+var result = fs.readFileSync('./syntax/test.txt','utf-8');
+console.log(result);
+console.log('C');
+*/
+
+console.log('A');
+fs.readFile('./syntax/test.txt','utf-8',function(err,result){
+    console.log(result);
+});
+console.log('C');
+
+```
+
+## NPM
+https://pm2.keymetrics.io/
+
+## form
+
+```javascript
+<form action="https://node-syntax-gceab.run.goorm.io" method="post">
+    <p><input type="text" name="title"></p>
+    <p>
+        <textarea name="description"></textarea>
+    </p>
+    <p>
+        <input type="submit">
+    </p>
+</form>
+```
