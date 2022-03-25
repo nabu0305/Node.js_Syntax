@@ -60,7 +60,12 @@ fs.writeFile(`data/${title}`,description,'utf8',function(err){
 			  response.end();
 		  })
 ```
+
+## filename rename
+
+```javascript
 fs.writeFile(`data/${title}`,description,'utf8',function(err){
 			  response.writeHead(302,{Location: `/?id=${title}`});
 			  response.end();
 		  })
+```
