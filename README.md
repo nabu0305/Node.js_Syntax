@@ -53,3 +53,14 @@ https://pm2.keymetrics.io/
     </p>
 </form>
 ```
+## file write && Redirection
+```javascript
+fs.writeFile(`data/${title}`,description,'utf8',function(err){
+			  response.writeHead(302,{Location: `/?id=${title}`});
+			  response.end();
+		  })
+```
+fs.writeFile(`data/${title}`,description,'utf8',function(err){
+			  response.writeHead(302,{Location: `/?id=${title}`});
+			  response.end();
+		  })
