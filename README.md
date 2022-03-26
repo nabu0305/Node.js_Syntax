@@ -82,3 +82,26 @@ fs.unlink(`data/${id}`, function(error){
 ```
 
 ## Input Information Security
+
+ ```javascript
+var path = require('path'); 
+var filteredId = path.parse(queryData.id).base;
+```
+
+## Output Information Security
+
+
+ ```javascript
+const sanitizeHtml = require('sanitize-html');
+
+const dirty = 'some really tacky HTML';
+const clean = sanitizeHtml(dirty);
+
+const clean = sanitizeHtml(dirty, {
+  allowedTags: [ 'b', 'i', 'em', 'strong', 'a' ],
+  allowedAttributes: {
+    'a': [ 'href' ]
+  },
+  allowedIframeHostnames: ['www.youtube.com']
+});
+```
