@@ -1,0 +1,25 @@
+{
+  "name": "node_syntax1",
+  "version": "1.0.0",
+  "description": "## How do you get a list of the names of all files present in a directory in Node.js?",
+  "main": "main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/nabu0305/Node.js_Syntax.git.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nabu0305/Node.js_Syntax.git/issues"
+  },
+  "homepage": "https://github.com/nabu0305/Node.js_Syntax.git#readme",
+  "dependencies": {
+    "sanitize-html": "^2.7.0"
+  }
+}
