@@ -71,3 +71,14 @@ fs.writeFile(`data/${title}`,description,'utf8',function(err){
 ```
 
 ## Remove file
+
+ ```javascript
+fs.unlink(`data/${id}`, function(error){
+            response.writeHead(302, {Location: `/`});
+            response.end();
+
+         
+         })
+```
+
+## Input Information Security
