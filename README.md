@@ -69,3 +69,5 @@ fs.writeFile(`data/${title}`,description,'utf8',function(err){
 			  response.end();
 		  })
 ```
+
+## Remove file
